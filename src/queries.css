@@ -1,0 +1,76 @@
+/**big tab to 1200px(widths smaller that the 1140px row)**/
+@media only screen and (max-width: 1200px){
+  .hero-text-box{
+    padding: 0 2%;
+    width: 100%;
+  }
+  .row{
+    padding: 0 2%;
+  }
+}
+/********small tablet to big tab from 768 to 1023px********/
+@media only screen and (max-width: 1023px){
+
+.html{
+font-size: 18px;
+
+    }
+.long-copy{
+
+  width: 80%;
+  margin-left: 10%;
+}
+.steps-box{margin-top: 10px;}
+.works-step{margin-bottom: 40px;}
+.works-step:last-of-type{margin-bottom: 60px;}
+.app-screen{width: 50%; padding-top: 55px}
+.icon-small{
+  width: 17px;
+  margin-right: 5px;
+}
+.city-features{ font-size: 90%;}
+.plan-box{width: 100%; margin-left: 0%;}
+.plan-price{
+  font-size: 250%;
+}
+.contact-form{width: 80%;}
+}
+/********small phonest to small tabs from 481 to 767px**************/
+@media only screen and (max-width: 767px){
+  .html{
+    font-size: 16px;
+
+  }
+  h1{
+    margin: 0;
+    color: #fff;
+    font-size: 160%;
+    font-weight: 150;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.row,.hero-text-box{padding: 0 4%;}
+.col{width: 100%; margin:0 0 2% 0;}
+.long-copy{
+  width: 100%;
+  margin-left: 0;
+}
+.works-step{
+  margin-bottom: 20px;
+}
+.works-step:last-of-type{margin-bottom: 20px;}
+.works-step div{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 120%;
+  }
+.steps-box:first-child{ text-align: center;}
+}
+/*********Small Phones from 0 to 480px**************/
+@media only screen and (max-width: 480px){
+ .html{ padding: 25px 0;}
+ .contact-form{ width: 100%;}
+}
